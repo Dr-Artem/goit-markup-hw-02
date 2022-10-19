@@ -47,6 +47,9 @@ body {
 .nav-link:hover {
 	color: var(--additional-color);
 }
+.nav-link.is-active {
+	color: var(--additional-color);
+}
 .top-contact-links {
 	list-style: none;
 }
@@ -134,7 +137,7 @@ body {
 .team-title {
 	font-weight: 700;
 	font-size: 36px;
-	line-height: 42px;
+	line-height: 1.16;
 	text-align: center;
 	letter-spacing: 0.03em;
 }
@@ -152,13 +155,13 @@ body {
 .team-person-name {
 	font-weight: 500;
 	font-size: 16px;
-	line-height: 19px;
+	line-height: 1.18;
 	text-align: center;
 	letter-spacing: 0.03em;
 }
 .team-person-position {
 	font-size: 16px;
-	line-height: 19px;
+	line-height: 1.18;
 	text-align: center;
 	letter-spacing: 0.03em;
 	color: var(--muted-color);
